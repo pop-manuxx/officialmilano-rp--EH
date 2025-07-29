@@ -1,0 +1,107 @@
+/* ---------- BASE ---------- */
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #fff0f0;
+    margin: 0;
+    padding: 0;
+    color: #990000;
+}
+
+/* ---------- HEADER ---------- */
+header {
+    background-color: #fff0f0;
+    color: #990000;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 2px solid #990000;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #660000;
+    margin-top: 10px;
+}
+
+/* ---------- MAIN ---------- */
+main.home {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 30px 20px;
+    background-color: #ffe5e5;
+    box-shadow: 0 4px 12px rgba(204, 0, 0, 0.15);
+    border-left: 6px solid #cc0000;
+    text-align: center;
+    border-radius: 12px;
+}
+
+/* Titoli principali h2 */
+main.home h2 {
+    color: #990000;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #cc0000;
+    padding-bottom: 8px;
+}
+
+/* Paragrafi */
+main.home p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #660000;
+}
+
+/* Lista senza pallini e margini */
+main.home ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+    text-align: left;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Lista - singoli elementi */
+main.home ul li {
+    padding: 8px 0;
+    font-size: 1.1em;
+    color: #660000;
+}
+
+/* Bottone */
+.button {
+    display: inline-block;
+    background-color: #cc0000;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 12px;
+    font-size: 1em;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(204, 0, 0, 0.5);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #990000;
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(153, 0, 0, 0.6);
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    background-color: #fff0f0;
+    color: #660000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+    font-size: 0.9em;
+    border-top: 2px solid #990000;
+    font-weight: 600;
+}
